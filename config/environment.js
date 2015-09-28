@@ -5,6 +5,7 @@ module.exports = function(environment) {
     modulePrefix: 'message-board',
     environment: environment,
     baseURL: '/',
+    firebase: 'https://message-board-cr.firebaseio.com/',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
