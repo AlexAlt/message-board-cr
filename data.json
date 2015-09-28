@@ -1,0 +1,11 @@
+{ "questions": [{
+ "user": "Guy Person",
+ "question": "How Does Ember Work?",
+ "details": "I don't even know what it is please help"
+
+  }, {
+  "user": "Human McPerson",
+  "question": "Where is all the rain in Portland?",
+  "details": "I see that there is a lot of rain in Portland usually, but it's been dry AF around here. Am I missing something?"
+  }]
+}

@@ -1,5 +1,5 @@
 
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
@@ -12,13 +12,13 @@
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
-      <ul class="nav navbar-nav">
+    <!--   <ul class="nav navbar-nav">
         <li>Contact</li>
         <li>About Message Board</li>
-      </ul>
+      </ul> -->
 
       <ul class="nav navbar-nav navbar-right">
-        <li>Post A New Question</li>
+        <li>{{#link-to 'new-question'}}Post A New Question{{/link-to}}</li>
       </ul>
     </div>
   </div>
