@@ -1,8 +1,8 @@
 <h1>Welcome to Message Board</h1>
-<!-- 
-<ul>
-  {{#each model.questions as |question|}}
-    {{question.question}}
+
+<ul list-style-type:none>
+  {{#each model as |question|}}
+    <li>{{question.author}}{{question.question}}</li>
   {{/each}}
-</ul> -->
+</ul>
 

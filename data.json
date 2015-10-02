@@ -1,7 +1,7 @@
 { "questions": [{
  "user": "Guy Person",
- "question": "How Does Ember Work?",
- "details": "I don't even know what it is please help"
+ "question": "How tall is Prince?",
+ "details": "Please respond with metric measurements."
 
   }, {
   "user": "Human McPerson",
