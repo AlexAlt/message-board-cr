@@ -5,4 +5,12 @@
 
 
 {{edit-question question=model updateQuestion="updateQuestion"}}
+<hr>
 
+<ul>
+{{#each model.answer as |answer|}}
+  <li>{{submission-date answer.date_added}}{{answer.user}} says: {{answer.answer}}</li>
+  {{/each}}
+</ul>
+
+{{add-answer question=model saveAnswer="saveAnswer"}}
