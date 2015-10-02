@@ -6,11 +6,14 @@
 
 {{edit-question question=model updateQuestion="updateQuestion"}}
 <hr>
+<h2>Answers</h2>
 
-<ul>
+<dl>
 {{#each model.answer as |answer|}}
-  <li>{{submission-date answer.date_added}}{{answer.user}} says: {{answer.answer}}</li>
+  <dt><small>{{submission-date answer.date_added}}</small></dt>
+    <dd>{{answer.user}} says:</dd>
+    <dd>{{answer.answer}}</dd>
   {{/each}}
-</ul>
+</dl>
 
 {{add-answer question=model saveAnswer="saveAnswer"}}

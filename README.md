@@ -1,7 +1,6 @@
 # Message-board
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Message board is a simple app where user can ask questions and respond with answers. Users can edit their questions for clarification.
 
 ## Prerequisites
 
@@ -15,10 +14,13 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `https://github.com/AlexAlt/message-board-cr.git` clone this repository
 * change into the new directory
 * `npm install`
 * `bower install`
+* `ember install emberfire`
+* `ember install --save moment`
+
 
 ## Running / Development
 
@@ -41,7 +43,6 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-Specify what it takes to deploy your app.
 
 ## Further Reading / Useful Links
 
